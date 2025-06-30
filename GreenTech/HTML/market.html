@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraBloom Market place</title>
+  <link rel="stylesheet" href="../CSS/market.css" />
+</head>
+
+<body>
+  <header>
+    <h1>🌾 TerraBloom Marketplace</h1>
+    <nav>
+      <a href="../HTML/home.html">Home</a>
+      <a href="../HTML/dashboard.html">Dashboard</a>
+      <a href="../HTML/market.html" class="active">Marketplace</a>
+      <a href="../HTML/help.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filters">
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="all">All</option>
+        <option value="crops">Crops</option>
+        <option value="fertilizer">Fertilizer</option>
+        <option value="tools">Farming Tools</option>
+      </select>
+    </section>
+
+    <section id="market-items" class="items-grid"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TerraBloom. Empowering smart agriculture.</p>
+  </footer>
+
+  <script src="../JAVASCRIPT/market.js"></script>
+</body>
+
+</html>
